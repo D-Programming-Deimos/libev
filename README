@@ -1,0 +1,20 @@
+libev D bindings
+------------------
+
+Introduction:
+
+A full-featured and high-performance event loop that is loosely modelled after libevent, but without its limitations and bugs.
+
+Features include child/pid watchers, periodic timers based on wallclock (absolute) time (in addition to timers using relative timeouts), as well as epoll/kqueue/event ports/inotify/eventfd/signalfd support, fast timer management, time jump detection and correction, and ease-of-use.
+http://software.schmorp.de/pkg/libev.html
+
+License:
+libev and the D bindings are released under the MIT license.
+
+Binding version: 4.0.4
+
+High-Level Wrapper:
+not available
+
+Windows-DLL:
+not available
