@@ -1,0 +1,9 @@
+{
+	"name": "libev",
+	"description": "Deimos bindings for libev, a cross-platform asynchronous I/O library",
+	"homepage": "http://software.schmorp.de/pkg/libev.html",
+	"importPaths": ["."],
+	"targetType": "sourceLibrary",
+	"versions": ["LIBEV4"],
+	"libs-posix" : ["ev"]
+}
