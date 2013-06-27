@@ -49,9 +49,10 @@ extern(C):
 //TODO: Better way to define default versions
 //TODO: EV_FEATURES_* is not working
 
+version = LIBEV4; // default
+
 /* pre-4.0 compatibility */
-/*version = LIBEV4;
-  version = LIBEV3_COMPAT;*/
+/* version = LIBEV3_COMPAT;*/
 version = EV_MULTIPLICITY;
 version = EV_PERIODIC_ENABLE;
 version = EV_STAT_ENABLE;
