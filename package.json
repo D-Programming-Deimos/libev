@@ -1,6 +1,7 @@
 {
 	"name": "libev",
 	"description": "Deimos bindings for libev, a cross-platform asynchronous I/O library",
+	"license": "BSD 2-Clause or GPL-2.0 or later",
 	"homepage": "http://software.schmorp.de/pkg/libev.html",
 	"importPaths": ["."],
 	"targetType": "sourceLibrary",
