@@ -146,8 +146,9 @@ enum : uint
     EV_PREPARE  = 0x00004000, /** event loop about to poll */
     EV_CHECK    = 0x00008000, /** event loop finished poll */
     EV_EMBED    = 0x00010000, /** embedded event loop needs sweep */
-    EV_FORK     = 0x00020000, /** event loop resumed in child */
-    EV_ASYNC    = 0x00040000, /** async intra-loop signal */
+    EV_FORK     = 0x00020000, /** call fork() was detected */
+    EV_CLEANUP  = 0x00040000, /** event loop resumed in child */
+    EV_ASYNC    = 0x00080000, /** async intra-loop signal */
     EV_CUSTOM   = 0x01000000, /** for use by user code */
     EV_ERROR    = 0x80000000, /** sent when an error occurs */
 }
