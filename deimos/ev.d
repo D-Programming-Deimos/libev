@@ -42,7 +42,7 @@ module deimos.ev;
 import core.stdc.signal;
 import core.stdc.config; //c_long
 
-extern(C):
+nothrow extern(C):
 
 /*****************************************************************************/
 
